@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>HOME</title>
+<link rel="icon" type="image/png/jpg" href="images/Home-icon.png">
+<link rel="stylesheet" href="hom.css">
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script type="text/javascript" src="hom.js"></script>
+
+</head>
+<body >
+  <script src="hom.js"></script>
+  <script>
+function login()
+{
+window.location.href = "homl.html";
+}
+function signup()
+{
+window.location.href = "homs.html";
+}
+</script>
+  <div id ='d1'>
+  <img id="img1" src='images/nk.jpg'></img>
+  <div id = 'dt'>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  NATIONAL INSTITUTE OF TECHNOLOGY <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;UTTARAKHAND <br>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;ONLINE VOTING SYSTEM
+
+  </div>
+  </div>
+   <a id="a1" onclick="login()">LOGIN</a>
+   
+  
+ <div id='d3'>
+     
+     <form id="f2" action="" method="post" >
+	   </br></br>
+       &nbsp;&nbsp; Name
+	  <input id="i4" type="text" name="name" placeholder="Enter Your Name" maxlength="25" required pattern="[a-zA-z\s]+"></br></br>
+	  &nbsp;&nbsp;&nbsp;Select your Branch
+	 <select name="branch">
+  <option>CIV</option>
+  <option>CSE</option>
+  <option>ECE</option>
+  <option>EEE</option>
+  <option>MEC</option>
+     </select>
+	  &nbsp;&nbsp;&nbsp;Age
+	  <input id="i6" type="number" name="age" placeholder="Enter Your age" size="3" max="100" required></br></br>
+	  &nbsp;&nbsp;&nbsp;ID Number
+	  <input id="i4" type="text" name="idno" placeholder="Enter Your ID Number" maxlength="10" required pattern="ID20[0-9][0-9]0[0-9][0-9][0-9]"></br></br>
+	   &nbsp;&nbsp;&nbsp;Roll Number
+	  <input id="i4" type="text" name="rollno" placeholder="Enter Your Roll Number" maxlength="10" required pattern="BT[0-9][0-9][A-Z][A-Z][A-Z]0[0-9][0-9]"></br></br>
+	   &nbsp;&nbsp;&nbsp;Upload Image
+	   <input type="file" name="img"></br></br>
+	  &nbsp;&nbsp;&nbsp;Email 
+	  <input id="email" type="email" name="email" size="35" placeholder="Enter Your College Email Address"></br></br>
+	  &nbsp;&nbsp;&nbsp;Mobile Number 
+	  <input id="i7" type="number" name="phone" placeholder="Enter Your Mobile Number" size="12" required></br></br>
+	  &nbsp;&nbsp;&nbsp;Password 
+	  <input id="i8" type="password" name="password" placeholder="Enter Your Password" size="20" required></br></br>
+	  &nbsp;&nbsp;&nbsp;Confirm Your Password 
+	  <input id="i9" type="password" name="confirm_password" placeholder="Re Enter Your Password" size="20" required></br></br>
+	  </br>
+	    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+	  <input id="i10" type="submit" value="SignUp"><br>
+     </form>
+	  
+ </div>
+<a id="a2" onclick="signup()">SIGNUP</a>  
+</body>
+</html>

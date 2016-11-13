@@ -1,0 +1,42 @@
+
+#dd
+{
+background:navy;
+}
+.list-group-item.active
+{
+background:navy;
+}
+#imgBox
+{
+	width: 250px;
+	height: 250px;
+	background: url("images/wb.png") no-repeat;
+}
+#imgBox:hover {
+	width: 250px;
+	height: 250px;
+	background: url("images/CW.png") no-repeat;
+	}
+#hc {
+     color:navy;
+    }
+	
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+.footer
+{
+border-radius:5px;
+background:navy;
+height:70px;
+position:absolute;
+bottom:0px;
+}
+#logbt
+{
+	background:navy;
+}
+
+
+

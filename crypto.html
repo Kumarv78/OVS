@@ -1,0 +1,22 @@
+<html>
+<head>
+<script language="javascript">
+function some()
+{
+var str=document.form.in.value;
+int a=4;
+document.write(a);
+document.write(str);
+str=CryptoJS.AES.encrypt(str,str);
+document.write(str);
+}
+
+</script>
+</head>
+<body>
+<form name='form'>
+<input type="Text"  name="in" />
+<input type="submit" value="Submit" onsubmit="some();"/>
+</form>
+</body>
+</html>
